@@ -18,7 +18,7 @@ before_script:
 build:
   stage: build
   script:
-    - docker build --pull -t $CI_REGISTRY_IMAGE:$CI_BUILD_REF .Depoyment/.
+    - docker build --pull -t $CI_REGISTRY_IMAGE:$CI_BUILD_REF .Depoyment/Dockerfile
     - docker push $CI_REGISTRY_IMAGE:$CI_BUILD_REF
   except:
     - tags
