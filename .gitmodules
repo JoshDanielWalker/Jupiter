@@ -1,4 +1,0 @@
-[submodule "Jupiter-Core"]
-	path = Jupiter-Core
-	url = git@github.com:JoshDanielWalker/Jupiter-Core.git
-	branch = master
